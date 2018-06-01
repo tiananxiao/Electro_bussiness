@@ -57,7 +57,7 @@
 
 - 把纯静态的html模板完全放在前端，数据全部通过RESTful接口来进行交互
 
-###分层架构
+### 分层架构
 
 - 逻辑层
 
@@ -110,9 +110,9 @@
 
 >注：更新webpack@4.2.0后webpack-dev-server新增了devServer的配置，用自带的代理就可以访问接口
 
-##业务部分
+## 业务部分
 
-###通用功能开发
+### 通用功能开发
 
 - 为业务开发打下基础，加快开发速度
 ```javascript
@@ -206,9 +206,9 @@ var _mm = {
 module.exports = _mm;
 ```
 
-###业务开发
+### 业务开发
 
-![业务开发]()
+![业务开发](https://gitee.com/happymmallmac/mmall-m/raw/master/src/image/readme/%E5%89%8D%E5%8F%B0-%E4%B8%9A%E5%8A%A1.png)
 
 ## 生产环境适配及基本SEO
 
