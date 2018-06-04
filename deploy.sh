@@ -1,7 +1,7 @@
 # @Author: 15156
 # @Date:   2018-05-31 13:20:24
 # @Last Modified by:   15156
-# @Last Modified time: 2018-05-31 14:00:27
+# @Last Modified time: 2018-06-03 14:18:49
 
 
 GIT_HOME=/developer/git-repository/
@@ -47,7 +47,7 @@ if [ -d "./dist" ];
 then
 	# bakeup dest
     echo -e "---------Dest Bakeup--------"
-    mv $DEST_PATH/dist $DEST_PATH/dist.bak
+    mv $DEST_PATH/$1/dist $DEST_PATH/$1/dist.bak
 
     echo -e "---------clean Dest--------"
     rm -rf $DEST_PATH/$1/dist
