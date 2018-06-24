@@ -1,7 +1,7 @@
 # @Author: 15156
 # @Date:   2018-05-31 13:20:24
 # @Last Modified by:   15156
-# @Last Modified time: 2018-06-03 14:18:49
+# @Last Modified time: 2018-06-22 17:52:13
 
 
 GIT_HOME=/developer/git-repository/
@@ -22,6 +22,14 @@ elif [ $1 = "admin-fe" ];
 	then
 	    echo -e "---------Enter admin-fe--------"
 	    cd $GIT_HOME$1
+elif [ $1 = "tmac-music" ];
+    then
+        echo -e "---------Enter tmac-music--------"
+        cd $GIT_HOME$1
+elif [ $1 = "take-out" ];
+    then
+        echo -e "---------Enter take-out--------"
+        cd $GIT_HOME$1
 else
 	    echo -e "Invalid Project Name!"
 	    exit
